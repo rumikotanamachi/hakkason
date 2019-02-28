@@ -1,0 +1,166 @@
+body{
+    margin:30px;
+    padding:0;
+    text-align:left;
+    font-size: 32px;
+    background-size:cover;
+    background-image:url(img/speedjanken-back1.jpg);
+}
+header{
+    /* border-bottom: 1px solid #ccc; */
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+/* 山札 */
+#comyama_field{
+    width: 188px;
+    height: 252px;
+    margin-left: 50px;
+}
+.combtn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.my_card {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.com_card {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* #com_field0 {
+    width: 188px;
+    height: 252px;
+}
+
+
+#com_field1 {
+    width: 188px;
+    height: 252px;
+}
+
+
+#com_field2 {
+    width: 188px;
+    height: 252px;
+} */
+
+/* ---------中央カード----------- */
+.bacard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 30px;
+}
+
+#card {
+    width: 188px;
+    height: 252px;
+}
+/* --------------------------------- */
+
+.btn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+img {
+    width: 110px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* #my_field0 {
+    width: 188px;
+    height: 252px;
+} */
+
+/* #my_field0:hover{
+    width: 213px;
+    height: 284px;
+} */
+
+/* #my_field1 {
+    width: 188px;
+    height: 252px;
+}
+ */
+/* #my_field1:hover{
+    width: 213px;
+    height: 284px;
+} */
+
+/* #my_field2 {
+    width: 188px;
+    height: 252px;
+} */
+
+/* #my_field2:hover{
+    width: 213px;
+    height: 284px;
+}
+
+#c_field {
+    width: 213px;
+    height: 284px;
+} */
+
+#start_btn {
+  display: inline-block;
+  text-align: center;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+}
+
+#start_btn:hover {
+  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+/* .start{
+    float: right;
+} */
+.start_btn_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;    left: 30px;
+    position: relative;
+    left: 30%;
+
+}
+
+.result_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #FFC107;
+    position: relative;
+    right: 30%;    
+
+    
+}
